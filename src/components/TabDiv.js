@@ -16,7 +16,7 @@ function TabDiv() {
         <>
             <div className='flex flex-col sm:flex-row'>
                 <div className='lg:w-1/2 px-16 w-full text-center lg:text-start'>
-                    <h1 className='text-lg lg:text-2xl font-bold tracking-widest uppercase text-black'>{activeLink=== 'manageRoles' ? 'MANAGE ROLE':'MANAGE USER' }</h1>
+                    <h1 className='text-lg lg:text-2xl font-bold tracking-widest uppercase text-black'>{activeLink=== 'manageRoles' ? 'MANAGE ROLES':'MANAGE USERS' }</h1>
                 </div>
                 <div className="flex justify-start w-full">
                     <div className="flex justify-center items-center w-64 text-center">
@@ -40,7 +40,7 @@ function TabDiv() {
                                 }`}
                             onClick={() => handleClick('manageUser')}
                         >
-                            Manage User
+                            Manage Users
                         </a>
                     </div>
                 </div>
