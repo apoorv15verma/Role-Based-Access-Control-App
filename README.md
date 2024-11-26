@@ -1,40 +1,43 @@
 # Role Based Access Control App
 
-A React-based web application for managing users, allowing you to add, edit, delete, and toggle user status. This project utilizes **React** for building the UI, **Tailwind css** for styling and **Redux** for state management.
+A React-based web application for managing users, enabling functionalities like adding, editing, deleting, and toggling user statuses. This project leverages **React** for building the UI, **Tailwind css** for styling and **Redux** for effective state management.
 
 ## Project Overview
 
-The **Role Based Access Control** allows users to manage a list of users with the ability to:
+The **Role Based Access Control**  application provides an intuitive interface for managing a user list with the following capabilities:
 
 - Add new users.
 - Edit existing users' information (name and role).
 - Toggle user status between **Active** and **Inactive**.
-- Delete users from the list.
+- Delete users seamlessly.
 
-It uses **React** for the front-end and **Redux** for state management, making it easy to manage the state of users across the app.
+Built with **React** for the front-end and **Redux** for robust state management, this application ensures an efficient and organized approach to handling user data.
 
 ## User Experience
 
-- There are two tabs (manage roles, manage users) to make the UX better.
-- Impressive UI of the app so it feels good when the runs this app.
- 
+- The application features two dedicated tabs (**Manage Roles** and **Manage Users**) to enhance user experience and streamline navigation.
+
+- A visually appealing and responsive UI ensures a delightful experience for users across all devices.
 
 ## Features
 
-- **Add User**: Easily add new users with default roles and statuses.
-- **Edit User**: Update the name and role of an existing user.
-- **Delete User**: Remove a user from the list.
+- **Add User**: Quickly add new users with predefined roles and default statuses.
+- **Edit User**: Effortlessly update the name and role of any existing user.
+- **Delete User**: Seamlessly remove users from the list as needed.
 - **Toggle Status**: Switch a user's status between "Active" and "Inactive."
 - **Search Functionality**: Quickly search for users by their name to find specific individuals in the user list.
 - **Filter by Status**: Filter the user list to show only Active or Inactive users, making it easier to manage users based on their current status.
 - **Responsive UI**: The app is designed to be responsive, providing a smooth experience across devices (with additional improvements planned).
-- **User Management**: A clean, organized table to manage user data, including name, role, and status.
+- **User Management**: Manage user data efficiently in a well-structured table that displays details like name, role, and status.
 
 
 ## Setup Instructions
 
 To set up this project locally, follow these steps:
 
+# Clone the repository
+
+https://github.com/apoorv15verma/Role-Based-Access-Control-App
 
 # Navigate into the project directory
 cd RoleBasedAcessControl-UI
@@ -75,17 +78,15 @@ This project is built using the following technologies:
 ### 1. **User Authentication**
    - Implement user authentication using JWT (JSON Web Token) or OAuth to allow different user roles (e.g., Admin, Viewer) and secure access to user management features.
 
-### 2. **Pagination**
-   - Add pagination or infinite scrolling to the user list to improve performance when managing a large number of users. Use libraries like `react-paginate` for easier implementation.
+
 
 ### 3. **Performance Optimization**
    - Implement code splitting and lazy loading for components that are not immediately required to reduce the initial bundle size and optimize the app's performance.
 
-### 4. **Internationalization (i18n) Support**
-   - Add multi-language support to the app, allowing users to switch between different languages. Use libraries like `react-i18next` for efficient implementation.
 
-### 5. **Unit and Integration Testing**
-   - Expand testing coverage by adding more unit and integration tests using libraries like Jest and React Testing Library to ensure the application’s functionality is well-tested.
+
+
+
 
 
 
